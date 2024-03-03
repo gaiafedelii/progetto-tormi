@@ -1,4 +1,4 @@
-body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin: 0;}
+body{font-family: 'Inter', sans-serif; margin: 0;}
 
 a{text-decoration: none;}
 
@@ -41,21 +41,24 @@ p{
     height: 100px;
     z-index: 10;
     top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 15px 0;
     display: flex;
     background: black;
     align-items: center;
 }
 
-.menu{
-    width: 100%;
-    padding: 0px;
-    z-index: 0;
-}
-
 .logo{
     padding: 7.5px 7.5px;
     z-index: 1;
+}
+
+.menu{
+    transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+    width: 100%;
+    padding: 0px;
+    z-index: 0;
 }
 
 .menu li{
@@ -67,6 +70,28 @@ p{
     padding: 15px;
     display: block;
     text-decoration: none;
+}
+
+.mcell{display: none;}
+
+@media(max-width: 768px){
+    .menu{position: absolute; top: 0; right: -100%; background: #000;height: 100vh; padding-top: 88px;}
+    .menu li{display: block;}
+    .menu li a{padding: 15px 30px; font-size: 20px;}
+
+    .menu--open{right: 0%;}
+
+    .mcell{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        right: 30px;
+    }
+
+    .mcell span{background: #fff; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
+    
 }
 
 .hero{
