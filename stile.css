@@ -144,21 +144,6 @@ p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .poster1{
     display: flex;
     padding: 50px 0;
@@ -212,10 +197,38 @@ p{
     margin-top: -15px;
 }
 
-.main-carousel{
+
+
+
+.poster1p{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.poster1p__img{
+    height: 100%;
+    width: 50%;
+}
+
+.poster1p__img img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.poster1p__content{
+    padding: 20px;
+    width: 50%;
+}
+
+
+
+.poster2p{
     padding: 50px 0;
 }
-.carousel-cell{
+.poster2p-cell{
     height: 300px;
     width: 300px;
     background: darkblue;
@@ -225,48 +238,8 @@ p{
     margin-right: 50px;
 }
 
-.carousel-cell a{
+.poster2p-cell a{
     color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.cw{
-    color: #fff;
-}
-.mg1{
-    margin-top: 50px;
-}
-.big-text{
-    font-size: 70px;
-    font-weight: 800;
-}
-.normal-text{
-    font-size: 20px;
-}
-.small-text{
-    font-size: 15px;
 }
 
 
