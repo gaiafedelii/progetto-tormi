@@ -1,15 +1,12 @@
 body{font-family: 'Inter', sans-serif; margin: 0;}
 
 a{text-decoration: none;}
-
 h1, h2, h3, h4, p{color: #000; padding-bottom: 30px;}
-
 p{
     line-height: 28px;
     color: lightslategrey;
     font-weight: 300;
 }
-
 .cw{
     color: #fff;
 }
@@ -26,12 +23,13 @@ p{
 .small-text{
     font-size: 15px;
 }
-
 .button{
     background: darkblue;
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+
 
 .header{
     width: 100%;
@@ -46,32 +44,26 @@ p{
     background: black;
     align-items: center;
 }
-
 .logo{
     padding: 7.5px 7.5px;
     z-index: 1;
 }
-
 .menu{
     transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
     width: 100%;
     padding: 0px;
     z-index: 0;
 }
-
 .menu li{
     display: inline-block;
 }
-
 .menu li a {
     color: white;
     padding: 15px;
     display: block;
     text-decoration: none;
 }
-
 .mcell{display: none;}
-
 @media(max-width: 768px){
     .menu{position: absolute; top: 0; right: -100%; background: #000;height: 100vh; padding-top: 88px;}
     .menu li{display: block;}
@@ -89,8 +81,9 @@ p{
     }
 
     .mcell span{background: #fff; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
-
 }
+
+
 
 .hero{
     position: relative;
@@ -102,7 +95,6 @@ p{
     background-size: cover;
     overflow: hidden;
 }
-
 .hero:after{
     content: ' ';
     width: 100%;
@@ -113,7 +105,6 @@ p{
     background: #000;
     opacity: 0.4;
 }
-
 .hero__content{
     width: 100%;
     max-width: 1000px;
@@ -122,15 +113,15 @@ p{
     z-index: 1;
     position: relative;
 }
-
 .hero__content h1{
     color: #fff;
 }
-
 .hero--small{
     height: 450px;
     text-align: center;
 }
+
+
 
 #video{
     position: absolute;
@@ -143,7 +134,6 @@ p{
 
 
 
-
 .poster1{
     display: flex;
     padding: 50px 0;
@@ -151,37 +141,31 @@ p{
         url("big bang.jpg") no-repeat center center;
     background-size: cover;
 }
-
 .poster1__title{
     width: 50%;
     padding: 40px;
     display: flex;
     align-items: center;
 }
-
 .poster1__content{
     width: 50%;
     padding-right: 40px;
 }
-
 .poster4{
     display: flex;
     align-items: center;
     width: 100%;
 }
-
 .poster4__content{
     width: 50%;
     transform: translateX(-25%);
     padding: 0;
 }
-
 .poster4__content h3, 
 .poster4__content p{
     margin-bottom: 0;
     margin-top: 0;
 }
-
 .poster4__img{
     height: 700px;
     width: 700px;
@@ -192,11 +176,12 @@ p{
     transform: translateX(-50%);
 }
 
+
+
 #videosole{
     transform: translateX(-25%);
     margin-top: -15px;
 }
-
 
 
 
@@ -206,18 +191,15 @@ p{
     width: 100%;
     align-items: center;
 }
-
 .poster1p__img{
     height: 100%;
     width: 50%;
 }
-
 .poster1p__img img{
     object-fit: cover;
     height: 100%;
     width: 100%;
 }
-
 .poster1p__content{
     padding: 20px;
     width: 50%;
@@ -237,10 +219,14 @@ p{
     text-align: center;
     margin-right: 50px;
 }
-
 .poster2p-cell a{
     color: #fff;
 }
+
+
+
+
+
 
 
 
