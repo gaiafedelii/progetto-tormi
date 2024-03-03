@@ -158,12 +158,23 @@ p{
     padding-bottom: 0;
 }
 
-@media(max-width: 768px){
+@media(max-width: 1170px){
     .poster1{flex-wrap: wrap; height: auto;}
 
     .poster1__img,
     .poster1__content{width: 100%;}
 }
+
+.cards{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.card{border: 3px solid black; width: 30%; margin: 0 1.5%; background: #fff; float: left;}
+.card__image{width: 100%; height: auto;}
+.card__copy{padding: 5px 20px;}
+.card__copy h3{margin-bottom: 0; padding-bottom: 20px;}
+.card__copy p{margin-top: 0;}
+
 .poster4{
     display: flex;
     align-items: center;
@@ -185,6 +196,7 @@ p{
     border-radius: 100%;
     line-height: 700px;
     margin-right: 40px;
+    margin-top: 60px;
     overflow: hidden;
     transform: translateX(-50%);
 }
