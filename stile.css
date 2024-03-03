@@ -1,10 +1,10 @@
-body{font-family: 'Inter', sans-serif; margin: 0;}
+body{font-family: 'DM Serif Display', sans-serif; margin: 0;}
 
 a{text-decoration: none;}
 h1, h2, h3, h4, p{color: #000; padding-bottom: 30px;}
 p{
     line-height: 28px;
-    color: lightslategrey;
+    color: rgb(131, 141, 151);
     font-weight: 300;
 }
 
@@ -12,8 +12,8 @@ p{
 .mg1{margin-top: 50px;}
 
 .big-text{font-size: 70px; font-weight: 300;}
-.normal-text{font-size: 20px;}
-.small-text{font-size: 10px;}
+.normal-text{font-size: 20px; font-weight: 100}
+.small-text{font-size: 15px;}
 
 .button{
     background: darkblue;
@@ -140,8 +140,6 @@ p{
     width: 60%;
     padding-right: 25px;
     padding-left: 25px;
-    height: auto;
-    position: relative;
 }
 
 .poster1__content h4,
@@ -157,7 +155,10 @@ p{
 }
 
 @media(max-width: 768px){
-    
+    .poster1{flex-wrap: wrap; height: auto;}
+
+    .poster1__img,
+    .poster1__content{width: 100%;}
 }
 .poster4{
     display: flex;
@@ -191,7 +192,14 @@ p{
     margin-top: -15px;
 }
 
-
+#videopianeti{
+    position: absolute;
+    top: -80%;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
 
 .poster1p{
     display: flex;
