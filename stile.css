@@ -143,9 +143,7 @@ p{
     z-index: 0;
 }
 
-@media(max-width: 768px){
-    #video{transform: translateX(-50%);}
-}
+
 
 
 
