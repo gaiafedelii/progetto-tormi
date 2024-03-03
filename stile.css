@@ -1,4 +1,8 @@
 body{font-family: 'DM Serif Display', sans-serif; margin: 0;}
+html,body{
+    height: 100%;
+    margin: 0;
+}
 
 a{text-decoration: none;}
 h1, h2, h3, h4, p{color: #000; padding-bottom: 30px;}
@@ -242,24 +246,23 @@ p{
 
 
 .gaiaemarty{
+    height: 100%;
     background: linear-gradient(0deg, rgba(0,0,0,0.9), rgba(0,0,0,0.6)), 
-        url("big bang.jpg") no-repeat center center;
+        url("gaia e marty.JPG") no-repeat center center;
     background-size: cover;
-    min-width: 100%;
-    min-height: 100%;
 }
 .grid{
     display: flex;
     max-width: 1350px;
     padding: 0 30px;
     margin: 0 auto;
-    margin-top: 100px;
-    padding: 5px;
     height: 100%;
+    align-items: center;
 }
 .grid .col{
     padding: 20px;
     width: 100%;
+    margin-top: 100px;
 }
 
 
