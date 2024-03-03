@@ -10,8 +10,6 @@ p{
     font-weight: 300;
 }
 
-.b-text{font-size: 65px; font-weight: 300;}
-
 .cw{
     color: #fff;
 }
@@ -20,7 +18,7 @@ p{
 }
 .big-text{
     font-size: 70px;
-    font-weight: 800;
+    font-weight: 300;
 }
 .normal-text{
     font-size: 20px;
