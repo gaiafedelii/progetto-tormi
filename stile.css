@@ -10,22 +10,12 @@ p{
     font-weight: 300;
 }
 
-.cw{
-    color: #fff;
-}
-.mg1{
-    margin-top: 50px;
-}
-.big-text{
-    font-size: 70px;
-    font-weight: 300;
-}
-.normal-text{
-    font-size: 20px;
-}
-.small-text{
-    font-size: 15px;
-}
+.cw{color: #fff;}
+.mg1{margin-top: 50px;}
+
+.big-text{font-size: 70px; font-weight: 300;}
+.normal-text{font-size: 20px;}
+.small-text{font-size: 10px;}
 
 .button{
     background: darkblue;
@@ -161,22 +151,36 @@ p{
 
 .poster1{
     display: flex;
-    padding: 50px 0;
-    background: linear-gradient(0deg, rgba(0,0,0,0.9), rgba(0,0,0,0.6)), 
-        url("big bang.jpg") no-repeat center center;
-    background-size: cover;
-}
-
-.poster1__title{
-    width: 50%;
-    padding: 40px;
-    display: flex;
+    height: 100vh;
+    width: 100%;
     align-items: center;
 }
 
+.poster1__img{width: 40%; height: 100%;}
+.poster1__img img{object-fit: cover; width: 100%; height: 100%;}
+
 .poster1__content{
-    width: 50%;
-    padding-right: 40px;
+    width: 60%;
+    padding-right: 25px;
+    padding-left: 25px;
+    height: auto;
+    position: relative;
+}
+
+.poster1__content h4,
+.poster1__content h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.poster1__content p{
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+@media(max-width: 768px){
+    
 }
 
 .poster4{
