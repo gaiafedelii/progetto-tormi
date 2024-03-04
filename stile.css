@@ -315,7 +315,6 @@ p{
     display: flex;
     height: 100vh;
     width: 100%;
-    margin-top: 20px;
     background: #000;
     align-items: center;
     margin-bottom: 0px;
@@ -332,13 +331,45 @@ p{
 .heropianeti__content{
     text-align: center;
     width: 40%;
-    height: 50%;
-    margin-right: 60px;
-    background: rgb(247, 245, 245);
-    border-radius: 5%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    padding: 0px 20px;
 }
 
+.pianetiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
 
+.pianetiv__content{
+    width: 50%;
+    transform: translateX(30%);
+    padding: 0;
+}
+
+.pianetiv__img{
+    height: 700px;
+    width: 700px;
+    border-radius: 100%;
+    line-height: 700px;
+    margin-left: 40px;
+    margin-top: 60px;
+    overflow: hidden;
+    transform: translateX(50%);
+}
+
+@media(max-width: 1170px){
+    .poster4{flex-wrap: wrap; height: auto;}
+
+    .poster4__img,
+    .poster4__content{width: 100%;}
+}
+
+#videogiove{
+    transform: translateX(-20%);
+    margin-top: -15px;
+}
 
 
 .gaiaemarty{
