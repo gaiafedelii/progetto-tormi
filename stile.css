@@ -309,6 +309,18 @@ p{
     padding-bottom: 0;
     margin-bottom: 0;
 }
+@media(max-width: 766px){
+    .gaiaemarty{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .col2{
+        transform: translateY(-35%);
+        padding-left: 30px;
+    }
+    .col1,
+    .col2{width: 100%;}
+}
 
 
 
