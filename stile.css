@@ -13,6 +13,7 @@ p{
 }
 
 .cw{color: #fff;}
+.cww{color: #cacaca;}
 .mg1{margin-top: 50px;}
 
 .big-text{font-size: 70px; font-weight: 300;}
@@ -318,9 +319,10 @@ p{
     background: #000;
     align-items: center;
     margin-bottom: 0px;
+    overflow: hidden;
 }
 .heropianeti__img{
-    width: 60%;
+    width: 55%;
     height: 80%;
 }
 .heropianeti__img img{
@@ -330,9 +332,11 @@ p{
 }
 .heropianeti__content{
     text-align: center;
-    width: 40%;
+    width: 45%;
     height: 100vh;
-    background: rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background: rgb(0, 0, 0);
     padding: 0px 20px;
 }
 
@@ -340,6 +344,7 @@ p{
     display: flex;
     align-items: center;
     width: 100%;
+    background: #a54b0c;
 }
 
 .pianetiv__content{
@@ -349,14 +354,14 @@ p{
 }
 
 .pianetiv__img{
-    height: 700px;
-    width: 700px;
+    height: 710px;
+    width: 710px;
     border-radius: 100%;
-    line-height: 700px;
+    line-height: 710px;
     margin-left: 40px;
-    margin-top: 60px;
+    margin-top: 40px;
     overflow: hidden;
-    transform: translateX(50%);
+    transform: translateX(40%);
 }
 
 @media(max-width: 1170px){
@@ -366,8 +371,8 @@ p{
     .poster4__content{width: 100%;}
 }
 
-#videogiove{
-    transform: translateX(-20%);
+#videoz{
+    transform: translateX(-21.5%);
     margin-top: -15px;
 }
 
