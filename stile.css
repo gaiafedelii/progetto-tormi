@@ -16,7 +16,7 @@ p{
 .mg1{margin-top: 50px;}
 
 .big-text{font-size: 70px; font-weight: 300;}
-.normal-text{font-size: 18px; font-weight: 100}
+.normal-text{font-size: 18px;}
 .small-text{font-size: 15px;}
 
 @media(max-width: 768px){
@@ -39,7 +39,6 @@ p{
     transform: translateX(-50%);
     padding: 15px 0;
     display: flex;
-    background: black;
     align-items: center;
 }
 .logo{
@@ -252,7 +251,12 @@ p{
     transform: translateX(-50%);
 }
 
+@media(max-width: 1170px){
+    .poster4{flex-wrap: wrap; height: auto;}
 
+    .poster4__img,
+    .poster4__content{width: 100%;}
+}
 
 #videosole{
     transform: translateX(-25%);
@@ -289,21 +293,21 @@ p{
 }
 
 
-
 .poster2p{
     padding: 50px 0;
 }
 .poster2p-cell{
     height: 300px;
     width: 300px;
-    background: darkblue;
+    background-color: #000;
     border-radius: 100%;
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-}
-.poster2p-cell a{
-    color: #fff;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,1)), url('mercurio.png');
+    background-size: cover;
+    margin-right: 20px;
+    transition: 1.5s;
 }
 
 
