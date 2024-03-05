@@ -306,12 +306,109 @@ p{
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,1)), url('mercurio.png');
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('mercurio.png');
     background-size: cover;
     margin-right: 20px;
     transition: 1.5s;
 }
 
+.poster2p-cell__1{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    border-radius: 100%;
+    line-height: 300px;
+    text-align: center;
+    margin-right: 50px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('venere1.jpg');
+    background-size: cover;
+    margin-right: 20px;
+    transition: 1.5s;
+}
+
+.poster2p-cell__2{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    border-radius: 100%;
+    line-height: 300px;
+    text-align: center;
+    margin-right: 50px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('terra1.png');
+    background-size: cover;
+    margin-right: 20px;
+    transition: 1.5s;
+}
+
+.poster2p-cell__3{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    border-radius: 100%;
+    line-height: 300px;
+    text-align: center;
+    margin-right: 50px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('marte1.jpg');
+    background-size: cover;
+    margin-right: 20px;
+    transition: 1.5s;
+}
+
+.poster2p-cell__4{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    border-radius: 100%;
+    line-height: 300px;
+    text-align: center;
+    margin-right: 50px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('giove1.jpg');
+    background-size: cover;
+    margin-right: 20px;
+    transition: 1.5s;
+}
+
+.poster2p-cell__5{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    border-radius: 100%;
+    line-height: 300px;
+    text-align: center;
+    margin-right: 50px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('saturno1.jpg');
+    background-size: cover;
+    margin-right: 20px;
+    transition: 1.5s;
+}
+
+.poster2p-cell__6{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    border-radius: 100%;
+    line-height: 300px;
+    text-align: center;
+    margin-right: 50px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('urano1.png');
+    background-size: cover;
+    margin-right: 20px;
+    transition: 1.5s;
+}
+
+.poster2p-cell__7{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    border-radius: 100%;
+    line-height: 300px;
+    text-align: center;
+    margin-right: 50px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('nettuno1.jpg');
+    background-size: cover;
+    margin-right: 20px;
+    transition: 1.5s;
+}
 
 .heropianeti{
     display: flex;
