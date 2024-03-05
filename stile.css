@@ -2,6 +2,7 @@ body{font-family: 'DM Serif Display', sans-serif; margin: 0;}
 html,body{
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 a{text-decoration: none;}
@@ -374,6 +375,7 @@ p{
 #videoz{
     transform: translateX(-21.5%);
     margin-top: -15px;
+   
 }
 
 
