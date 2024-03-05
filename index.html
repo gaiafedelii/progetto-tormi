@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Solare</title>
     <link rel="stylesheet" href="stile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,6 +41,25 @@
         <video autoplay muted loop id="video">
             <source src="video.mp4" type="video/mp4">
         </video>
+    </div>
+
+    <div class="poster">
+        <div class="grid">
+            <div class="col poster__text">
+                <div class="grid"> 
+                    <div class="col reveal">
+                        <h3 class="big-text">Informazioni generali</h3>
+                        <p class="normal-text">Il Sistema Solare è un sistema planetario costituito da corpi celesti mantenuti in orbita dalla forza gravitazionale del Sole. È situato nel braccio di Orione della Via Lattea e orbita attorno al centro galattico a una distanza di circa 26700 anni luce e una velocità di 230 km/s. Il sistema solare è costituito dal Sole, che occupa il 99,86% del sistema, da otto pianeti (Mercurio, Venere, Terra, Marte, Giove, Saturno, Urano e Nettuno), da cinque pianeti nani, dai rispettivi satelliti naturali, e da moltissimi altri corpi minori.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col poster__dots">
+                <div class="dot zoom">
+                    <img src="pes.png" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="poster1 mg1">
@@ -94,6 +114,25 @@
             <a href="sole.html" class="button cw">Discover more</a>
         </div>
     </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js" integrity="sha512-Nx/M3T/fWprNarYOrnl+gfWZ25YlZtSNmhjHeC0+2gCtyAdDFXqaORJBj1dC427zt3z/HwkUpPX+cxzonjUgrA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+    $( document ).ready(function() {
+
+        /* Open Panel */
+        $(".mcell").on('click', function() {
+            $(".menu").toggleClass("menu--open");
+        });
+
+    });
+
+    ScrollReveal().reveal('.reveal', { distance: '100px',  duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600});
+    ScrollReveal().reveal('.zoom', {duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200,  scale: 0.65, mobile: false});
+
+</script>
 
 </body>
 </html>

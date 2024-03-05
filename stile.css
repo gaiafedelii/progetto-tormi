@@ -8,24 +8,27 @@ a{text-decoration: none;}
 h1, h2, h3, h4, p{color: #000; padding-bottom: 30px;}
 p{
     line-height: 28px;
-    color: rgb(131, 141, 151);
+    color: rgb(62, 66, 68);
     font-weight: 300;
 }
 
 .cw{color: #fff;}
+.cww{color: #cacaca;}
 .mg1{margin-top: 50px;}
 
 .big-text{font-size: 70px; font-weight: 300;}
-.normal-text{font-size: 20px; font-weight: 100}
+.normal-text{font-size: 18px;}
 .small-text{font-size: 15px;}
+
+@media(max-width: 768px){
+    .big-text{font-size: 40px; font-weight: 200;}
+}
 
 .button{
     background: darkblue;
     padding: 10px 20px;
     border-radius: 5px;
 }
-
-
 
 .header{
     width: 100%;
@@ -37,7 +40,6 @@ p{
     transform: translateX(-50%);
     padding: 15px 0;
     display: flex;
-    background: black;
     align-items: center;
 }
 .logo{
@@ -60,6 +62,7 @@ p{
     text-decoration: none;
 }
 .mcell{display: none;}
+
 @media(max-width: 768px){
     .menu{position: absolute; top: 0; right: -100%; background: #000;height: 100vh; padding-top: 88px;}
     .menu li{display: block;}
@@ -78,8 +81,6 @@ p{
 
     .mcell span{background: #fff; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
 }
-
-
 
 .hero{
     position: relative;
@@ -128,7 +129,57 @@ p{
     z-index: 0;
 }
 
+/*! Grid */
+.grid{
+    display: flex;
+    max-width: 1000px;
+    padding: 0 38px;
+    margin: 0 50px;
+}
 
+.grid .col{width: 100%;}
+
+@media(max-width: 768px){
+    .grid{flex-wrap: wrap;}
+}
+
+/*! Poster */
+.poster{
+    background: #ffffff;
+    padding: 50px 0px;
+}
+
+.poster__dots{
+    display: flex;
+    align-items: center;
+}
+
+.poster__text{ 
+    display: flex;
+    align-items: center;
+}
+
+.poster__text h3,
+.poster__text p{
+    margin: 0;
+}
+
+.dot{
+    height: 450px;
+    width: 450px;
+    background: #000;
+    border-radius: 100%;
+    line-height: 450px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.dot img{
+    height: auto;
+    width: 450px;
+    border-radius: 100%;
+}
 
 .poster1{
     display: flex;
@@ -201,7 +252,12 @@ p{
     transform: translateX(-50%);
 }
 
+@media(max-width: 1170px){
+    .poster4{flex-wrap: wrap; height: auto;}
 
+    .poster4__img,
+    .poster4__content{width: 100%;}
+}
 
 #videosole{
     transform: translateX(-25%);
@@ -238,21 +294,21 @@ p{
 }
 
 
-
 .poster2p{
     padding: 50px 0;
 }
 .poster2p-cell{
     height: 300px;
     width: 300px;
-    background: darkblue;
+    background-color: #000;
     border-radius: 100%;
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-}
-.poster2p-cell a{
-    color: #fff;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,1)), url('mercurio.png');
+    background-size: cover;
+    margin-right: 20px;
+    transition: 1.5s;
 }
 
 
@@ -260,13 +316,13 @@ p{
     display: flex;
     height: 100vh;
     width: 100%;
-    margin-top: 20px;
     background: #000;
     align-items: center;
     margin-bottom: 0px;
+    overflow: hidden;
 }
 .heropianeti__img{
-    width: 60%;
+    width: 55%;
     height: 80%;
 }
 .heropianeti__img img{
@@ -276,14 +332,49 @@ p{
 }
 .heropianeti__content{
     text-align: center;
-    width: 40%;
-    height: 50%;
-    margin-right: 60px;
-    background: rgb(247, 245, 245);
-    border-radius: 5%;
+    width: 45%;
+    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background: rgb(0, 0, 0);
+    padding: 0px 20px;
 }
 
+.pianetiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #a54b0c;
+}
 
+.pianetiv__content{
+    width: 50%;
+    transform: translateX(30%);
+    padding: 0;
+}
+
+.pianetiv__img{
+    height: 710px;
+    width: 710px;
+    border-radius: 100%;
+    line-height: 710px;
+    margin-left: 40px;
+    margin-top: 40px;
+    overflow: hidden;
+    transform: translateX(40%);
+}
+
+@media(max-width: 1170px){
+    .poster4{flex-wrap: wrap; height: auto;}
+
+    .poster4__img,
+    .poster4__content{width: 100%;}
+}
+
+#videoz{
+    transform: translateX(-21.5%);
+    margin-top: -15px;
+}
 
 
 .gaiaemarty{
@@ -309,6 +400,7 @@ p{
     padding-bottom: 0;
     margin-bottom: 0;
 }
+
 @media(max-width: 766px){
     .gaiaemarty{
         flex-wrap: wrap;
@@ -321,7 +413,6 @@ p{
     .col1,
     .col2{width: 100%;}
 }
-
 
 
 
