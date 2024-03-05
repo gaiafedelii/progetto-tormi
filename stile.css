@@ -416,6 +416,18 @@ p{
     .col2{width: 100%;}
 }
 
+.strutturadelsole{
+    background: #000;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strutturadelsole img{
+    border: 3px solid orange;
+}
+
 
 
 
