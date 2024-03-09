@@ -135,7 +135,7 @@ p{
     display: flex;
     max-width: 1000px;
     padding: 0 38px;
-    margin: 0 50px;
+    margin: 0 auto;
 }
 
 .grid .col{width: 100%;}
@@ -290,6 +290,12 @@ p{
         padding-right: 25px;
         padding-left: 25px;
     }
+}
+
+.footer{
+    background: #04123d;
+    padding: 50px 0;
+    margin-top: 80px;
 }
 
 #videopianeti{
@@ -558,8 +564,10 @@ p{
 
 
 
-*,*::before,*::after{
+*,
+*:before,
+*:after{
     -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-            box-sizing: border-box;
+             box-sizing: border-box;
 }
