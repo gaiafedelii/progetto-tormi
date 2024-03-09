@@ -56,7 +56,7 @@ p{
 .menu li{
     display: inline-block;
 }
-.menu li a{
+.menu li a {
     color: white;
     padding: 15px;
     display: block;
@@ -521,7 +521,7 @@ p{
     margin-top: 100px;
 }
 
-.col2 h3{
+.col1 h1, .col2 h3{
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -530,10 +530,6 @@ p{
     .gaiaemarty{
         flex-wrap: wrap;
         height: auto;
-    }
-    .col2{
-        transform: translateY(-35%);
-        padding-left: 30px;
     }
     .col1,
     .col2{width: 100%;}
