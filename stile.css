@@ -56,7 +56,7 @@ p{
 .menu li{
     display: inline-block;
 }
-.menu li a{
+.menu li a {
     color: white;
     padding: 15px;
     display: block;
@@ -253,16 +253,38 @@ p{
     transform: translateX(-50%);
 }
 
-@media(max-width: 1170px){
-    .poster4{flex-wrap: wrap; height: auto;}
-
-    .poster4__img,
-    .poster4__content{width: 100%;}
-}
-
 #videosole{
     transform: translateX(-25%);
     margin-top: -15px;
+}
+
+@media(max-width: 900px){
+    .poster4{
+        flex-wrap: wrap; 
+        height: auto;
+        transform: translateX(50%);
+    }
+    .poster4__img{
+        height: 400px;
+        width: 100%;
+        border-radius: 0;
+        line-height: 300px;
+        align-items: center;
+    }
+    #videosole{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%; 
+        height: auto; 
+    }
+    .poster4__content{
+        width: 100%;
+        transform: translateX(-50%);
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 }
 
 .footer{
@@ -505,7 +527,7 @@ p{
     margin-top: 100px;
 }
 
-.col2 h3{
+.col1 h1, .col2 h3{
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -514,10 +536,6 @@ p{
     .gaiaemarty{
         flex-wrap: wrap;
         height: auto;
-    }
-    .col2{
-        transform: translateY(-35%);
-        padding-left: 30px;
     }
     .col1,
     .col2{width: 100%;}
