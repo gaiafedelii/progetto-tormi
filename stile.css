@@ -56,7 +56,7 @@ p{
 .menu li{
     display: inline-block;
 }
-.menu li a {
+.menu li a{
     color: white;
     padding: 15px;
     display: block;
