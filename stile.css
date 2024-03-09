@@ -176,16 +176,30 @@ p{
     margin-right: 40px;
 }
 
-.dot img{
-    height: auto;
+.dot__img{
+    height: 450px;
     width: 450px;
+    background-color: #000;
     border-radius: 100%;
+    line-height: 450px;
+    text-align: center;
+    margin-right: 50px;
+    background: url('media/immagini/sis-sol.jpg') no-repeat center left;
+    background-size: cover;
+    margin-right: 20px;
 }
 
 @media(max-width: 1000px){
     .poster{
         flex-wrap: wrap; 
         height: auto;
+    }
+    .dot__img{
+        margin: 0 auto;
+        display: block;
+        height: 350px;
+        width: 350px;
+        line-height: 350px
     }
 }
 
