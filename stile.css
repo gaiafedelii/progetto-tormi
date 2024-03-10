@@ -199,9 +199,9 @@ p{
     .dot__img{
         margin: 0 auto;
         display: block;
-        height: 350px;
-        width: 350px;
-        line-height: 350px
+        height: 300px;
+        width: 300px;
+        line-height: 300px
     }
 }
 
