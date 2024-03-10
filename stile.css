@@ -122,7 +122,6 @@ p{
 }
 
 
-
 #video{
     position: absolute;
     top: 0;
@@ -199,9 +198,9 @@ p{
     .dot__img{
         margin: 0 auto;
         display: block;
-        height: 350px;
-        width: 350px;
-        line-height: 350px
+        height: 300px;
+        width: 300px;
+        line-height: 300px
     }
 }
 
@@ -240,7 +239,6 @@ p{
 
 @media(max-width: 1170px){
     .poster1{flex-wrap: wrap; height: auto;}
-
     .poster1__img,
     .poster1__content{width: 100%;}
 }
@@ -255,9 +253,9 @@ p{
 .card__copy h3{margin-bottom: 0; padding-bottom: 20px;}
 .card__copy p{margin-top: 0;}
 
-@media(max-width: 1170px){
-    .cards{flex-wrap: wrap; height: auto;}
-    .card{width: 100%;margin-bottom: 10px; margin-left: 0px;}
+@media(max-width: 810px){
+    .cards{flex-wrap: wrap; height: auto; align-items: center; justify-content: center;}
+    .card{width: 70%;margin-bottom: 10px; margin-left: 0px;}
 }
 
 .poster4{
@@ -331,12 +329,11 @@ p{
 }
 
 #videopianeti{
-    position: absolute;
-    top: -80%;
-    left: 0;
+    margin-left: -310px;
     min-width: 100%;
     min-height: 100%;
     z-index: 0;
+    object-fit: cover;
 }
 
 .poster1p{
@@ -566,9 +563,7 @@ p{
 
 
 #videoz{
-    transform: translateX(-21.5%);
-    margin-top: -15px;
-   
+    transform: translateX(-21.5%);   
 }
 
 @media(max-width: 1100px){
@@ -643,13 +638,21 @@ p{
 .strutturadelsole{
     background: #000;
     margin: 0;
-    height: 100vh;
+    height: auto;
+    max-width: 100%;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .strutturadelsole img{
     border: 3px solid orange;
+}
+
+@media(max-width: 1000px){
+    .strutturadelsole img{
+        width: 90vw;
+    }
 }
 
 
