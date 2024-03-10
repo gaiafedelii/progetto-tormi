@@ -517,9 +517,9 @@ p{
     }
 }
 
-@media(min-width:500px) and (max-width: 900px){
+@media(min-width:600px) and (max-width: 1025px){
     .heropianeti{flex-wrap: wrap; height: auto;}
-    .small-text{font-size: 25px;}
+    .small-text1{font-size: 27px;}
     .heropianeti__content{width: 100%; font-size: 30px;}
     .heropianeti__img{
         width: 100%;
@@ -527,13 +527,24 @@ p{
     }
 }
 
-@media(max-width: 500px){
+@media(min-width:300px) and (max-width: 500px){
     .heropianeti{flex-wrap: wrap; height: auto;}
-    .small-text{font-size: 11px;}
+    .small-text1{font-size: 13px;}
     .heropianeti__content{width: 100%;}
     .heropianeti__img{
         width: 100%;
         padding-top: 50px;
+    }
+}
+
+@media(max-width: 300px){
+    .heropianeti{flex-wrap: wrap; height: auto;}
+    .small-text1{font-size: 11px;}
+    .heropianeti__content{width: 100%; margin-top: 0;}
+    .heropianeti__content h1{padding-bottom: 0; margin: 0; font-size: 14.5px;}
+    .heropianeti__img{
+        width: 100%;
+        padding-top: 10px;
     }
 }
 
