@@ -515,6 +515,9 @@ p{
     .heropianeti{flex-wrap: wrap; height: auto;}
     .heropianeti__img,
     .heropianeti__content{width: 100%;}
+    .heropianeti__img{
+        padding-top: 50px;
+    }
 }
 
 .pianetiv{
@@ -574,8 +577,7 @@ p{
     .pianetiv__content{
         width: 100%;
         transform: translate(0%);
-        padding-left: 25px;
-        padding-right: 25px;
+        padding: 25px 25px 0px 25px;
     }
 }
 
