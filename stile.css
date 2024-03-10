@@ -122,7 +122,6 @@ p{
 }
 
 
-
 #video{
     position: absolute;
     top: 0;
@@ -240,7 +239,6 @@ p{
 
 @media(max-width: 1170px){
     .poster1{flex-wrap: wrap; height: auto;}
-
     .poster1__img,
     .poster1__content{width: 100%;}
 }
@@ -331,7 +329,7 @@ p{
 }
 
 #videopianeti{
-    margin-left: -280px;
+    margin-left: -310px;
     min-width: 100%;
     min-height: 100%;
     z-index: 0;
