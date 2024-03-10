@@ -517,6 +517,26 @@ p{
     }
 }
 
+@media(min-width:500px) and (max-width: 900px){
+    .heropianeti{flex-wrap: wrap; height: auto;}
+    .small-text{font-size: 25px;}
+    .heropianeti__content{width: 100%; font-size: 30px;}
+    .heropianeti__img{
+        width: 100%;
+        padding-top: 50px;
+    }
+}
+
+@media(max-width: 500px){
+    .heropianeti{flex-wrap: wrap; height: auto;}
+    .small-text{font-size: 11px;}
+    .heropianeti__content{width: 100%;}
+    .heropianeti__img{
+        width: 100%;
+        padding-top: 50px;
+    }
+}
+
 .pianetiv{
     display: flex;
     align-items: center;
