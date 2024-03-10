@@ -71,7 +71,7 @@ p{
     .menu li{display: block;}
     .menu li a{padding: 15px 30px; font-size: 20px;}
 
-    .menu--open{right: 0%;}
+    .menu--open{right: 0%; margin-top: 0;}
 
     .mcell{
         display: block;
