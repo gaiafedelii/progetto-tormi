@@ -17,6 +17,7 @@ p{
 .mg1{margin-top: 50px;}
 
 .big-text{font-size: 70px; font-weight: 400;}
+.medium-text{font-size: 35px;}
 .normal-text{font-size: 18px;}
 .small-text{font-size: 15px;}
 
@@ -27,7 +28,7 @@ p{
 }
 
 .button{
-    background: darkblue;
+    background: #04123d;
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -323,6 +324,10 @@ p{
     background: #04123d;
     padding: 50px 0;
     margin-top: 80px;
+}
+
+.footer__text1, .footer__text2{
+    padding: 20px;
 }
 
 #videopianeti{
