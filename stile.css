@@ -1,4 +1,4 @@
-body{font-family: 'Merriweather', sans-serif; margin: 0;}
+body{font-family: 'Merriweather', sans-serif; margin: 0; ;}
 html,body{
     height: 100%;
     margin: 0;
@@ -16,6 +16,8 @@ p{
 .cww{color: #cacaca;}
 .mg1{margin-top: 50px;}
 .mg2{margin-right: 25px;}
+.mg3{margin-left: 40px;}
+.transition{transform: translateX(20%);}
 
 .big-text{font-size: 70px; font-weight: 400;}
 .medium-text{font-size: 30px;}
