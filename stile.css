@@ -1,4 +1,4 @@
-body{font-family: 'Merriweather', sans-serif; margin: 0;}
+body{font-family: 'Merriweather', sans-serif; margin: 0; ;}
 html,body{
     height: 100%;
     margin: 0;
@@ -15,6 +15,9 @@ p{
 .cw{color: #fff;}
 .cww{color: #cacaca;}
 .mg1{margin-top: 50px;}
+.mg2{margin-right: 25px;}
+.mg3{margin-left: 40px;}
+.transition{transform: translateX(20%);}
 
 .big-text{font-size: 70px; font-weight: 400;}
 .medium-text{font-size: 25px;}
@@ -59,7 +62,7 @@ p{
     display: inline-block;
 }
 .menu li a {
-    color: white;
+    color: rgb(150, 146, 146);
     padding: 15px;
     display: block;
     text-decoration: none;
@@ -319,7 +322,7 @@ p{
 }
 
 .footer{
-    background: #04123d;
+    background: #031034;
     padding: 50px 0;
     margin-top: 80px;
 }
@@ -669,7 +672,9 @@ p{
     }
 }
 
-
+.wa-link{
+    color: #ffffff;
+}
 
 
 
