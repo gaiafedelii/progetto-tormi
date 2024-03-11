@@ -59,7 +59,7 @@ p{
     display: inline-block;
 }
 .menu li a {
-    color: white;
+    color: rgb(150, 146, 146);
     padding: 15px;
     display: block;
     text-decoration: none;
