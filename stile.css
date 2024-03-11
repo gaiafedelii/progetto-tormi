@@ -6,14 +6,18 @@ html,body{
 }
 
 a{text-decoration: none;}
+.a1{text-decoration: underline;}
 h1, h2, h3, h4, p{color: #000; padding-bottom: 30px;}
 p{
     line-height: 28px;
     color: rgb(62, 66, 68);
 }
 
+
+/* ! Helpers */
 .cw{color: #fff;}
 .cww{color: #cacaca;}
+.pd{padding: 20px;}
 .mg1{margin-top: 50px;}
 .mg2{margin-right: 25px;}
 .mg3{margin-left: 40px;}
@@ -23,8 +27,6 @@ p{
 .medium-text{font-size: 25px;}
 .normal-text{font-size: 18px;}
 .small-text{font-size: 14px;}
-
-.b{font-weight: 400;}
 
 @media(max-width: 768px){
     .big-text{font-size: 40px; font-weight: 200;}
@@ -49,7 +51,7 @@ p{
     align-items: center;
 }
 .logo{
-    padding: 7.5px 7.5px;
+    padding: 7.5px 7.5px 7.5px 15px;
     z-index: 1;
 }
 .menu{
@@ -62,7 +64,7 @@ p{
     display: inline-block;
 }
 .menu li a {
-    color: rgb(150, 146, 146);
+    color: rgb(187, 185, 185);
     padding: 15px;
     display: block;
     text-decoration: none;
@@ -85,7 +87,7 @@ p{
         right: 30px;
     }
 
-    .mcell span{background: #fff; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
+    .mcell span{background: white; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
 }
 
 .hero{
@@ -160,7 +162,6 @@ p{
 }
 
 .poster__text{ 
-    display: flex;
     align-items: center;
 }
 
@@ -218,8 +219,6 @@ p{
 .poster1__img img{object-fit: cover; width: 100%; height: 100%;}
 
 .poster1__content{
-    transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
-    position: relative;
     width: 60%;
     padding-right: 25px;
     padding-left: 25px;
@@ -325,7 +324,7 @@ p{
 
 .footer{
     background: #031034;
-    padding: 50px 0;
+    padding-top: 50px;
     margin-top: 80px;
 }
 
