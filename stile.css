@@ -388,10 +388,10 @@ p{
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/mercurio.png') no-repeat center left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('media/immagini/immaginicells/mercuriocell.jpg') no-repeat center center;
     background-size: cover;
     margin-right: 20px;
-    transition: 1.5s;
+    transition: 2s;
 }
 
 .poster2p-cell__1{
@@ -402,10 +402,10 @@ p{
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/venere1.jpg') no-repeat center left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('media/immagini/immaginicells/venerecell.jpg') no-repeat center center;
     background-size: cover;
     margin-right: 20px;
-    transition: 1.5s;
+    transition: 2.5s;
 }
 
 .poster2p-cell__2{
@@ -416,10 +416,10 @@ p{
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/terra1.png') no-repeat center left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('media/immagini/immaginicells/terracell.png') no-repeat center center;    
     background-size: cover;
     margin-right: 20px;
-    transition: 1.5s;
+    transition: 2.5s;
 }
 
 .poster2p-cell__3{
@@ -430,10 +430,10 @@ p{
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/marte1.jpg') no-repeat center left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('media/immagini/immaginicells/martecell.jpg') no-repeat center center;    
     background-size: cover;
     margin-right: 20px;
-    transition: 1.5s;
+    transition: 2.5s;
 }
 
 .poster2p-cell__4{
@@ -444,10 +444,10 @@ p{
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/giove.jpg') no-repeat center left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('media/immagini/immaginicells/giovecell.jpg') no-repeat center center;
     background-size: cover;
     margin-right: 20px;
-    transition: 1.5s;
+    transition: 2.5s;
 }
 
 .poster2p-cell__5{
@@ -458,10 +458,10 @@ p{
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/saturno.jpg') no-repeat center left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/immaginicells/saturnocell.jpg') no-repeat center center;
     background-size: cover;
     margin-right: 20px;
-    transition: 1.5s;
+    transition: 2.5s;
 }
 
 .poster2p-cell__6{
@@ -472,10 +472,10 @@ p{
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/urano1.png') no-repeat center left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/immaginicells/uranocell.png') no-repeat center center;
     background-size: cover;
     margin-right: 20px;
-    transition: 1.5s;
+    transition: 2.5s;
 }
 
 .poster2p-cell__7{
@@ -486,10 +486,10 @@ p{
     line-height: 300px;
     text-align: center;
     margin-right: 50px;
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/nettuno1.jpg') no-repeat center left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('media/immagini/immaginicells/nettunocell.jpg') no-repeat center center;
     background-size: cover;
     margin-right: 20px;
-    transition: 1.5s;
+    transition: 2.5s;
 }
 
 .heropianeti{
