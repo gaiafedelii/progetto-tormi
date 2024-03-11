@@ -266,6 +266,7 @@ p{
     display: flex;
     align-items: center;
     width: 100%;
+    padding-bottom: 50px;
 }
 .poster4__content{
     width: 50%;
@@ -325,7 +326,6 @@ p{
 .footer{
     background: #031034;
     padding-top: 50px;
-    margin-top: 80px;
 }
 
 .footer__text2{
@@ -334,6 +334,10 @@ p{
 
 .social{display: flex;}
 .social img{padding-right: 20px;}
+
+@media(max-width: 766px){
+    .social{flex-wrap: wrap; height: auto;}
+}
 
 #videopianeti{
     margin-left: -310px;
@@ -374,6 +378,7 @@ p{
 
 .poster2p{
     padding: 50px 0;
+    margin-bottom: 50px;
 }
 .poster2p-cell{
     height: 300px;
