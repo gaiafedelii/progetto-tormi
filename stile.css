@@ -87,7 +87,7 @@ p{
         right: 30px;
     }
 
-    .mcell span{background: white; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
+    .mcell span{background: rgb(187, 185, 185); height: 3px; width: 100%; display: block; margin-bottom: 5px;}
 }
 
 .hero{
